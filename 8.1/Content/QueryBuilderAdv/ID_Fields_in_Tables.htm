@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Output.WebClient,Output.Query Builder" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="" data-mc-file-tags="Translation Status.Support files">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="classification" content="Saleslogix,Web,Help, 8.1,CRM,software" />
+        <meta name="creator" content="Saleslogix User Assistance" />
+        <meta name="copyright" content="Copyright © 1997-2014, SalesLogix, N.A, LLC. All rights reserved." />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>ID fields in tables</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Borders.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/SALESLOGIX.CSS" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../index.htm#QueryBuilderAdv/ID_Fields_in_Tables.htm">Open topic with navigation</a>
+        </p>
+        <h1><a name="kanchor660"></a>ID Fields in Tables</h1>
+        <p>Every table has at least one ID field that is used to ensure that each record in  the table is unique. When a record is added to the ACCOUNT table, a value is  automatically entered in the AccountID field. Each time a record is added, a  value is generated based on information in the key file.</p>
+        <p>Which fields are the important ID fields of a table depend on the <a href="Table_Relationship_Types.htm">type of relationship</a> that the table has with other tables. Any table that is created  that is not linked to any other table will have an ID field unique to itself. If  a new table is created as a child table with a One to One relationship with  another table, its ID field will be the ID field of the parent table. If the  child table has a One to Many relationship with another table, it will need more  than one field to ensure uniqueness. Thus, it will automatically generate two  IDs when the table is created: one unique to the table, and one that is the ID  field of the table it is based on. If a table is a link table meant to resolve a  Many to Many relationship, it will need three ID fields. <span class="MyVariablesProduct Name">Saleslogix</span> will  only auto-generate two IDs, one unique to the link table and one for the primary  table. You must add the ID field of the child table when creating the table or  it will not link the parent and child tables.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">While some link tables that exist in <span class="MyVariablesProduct Name">Saleslogix</span> only contain two ID fields, you should have all three ID fields 
+ in all link tables you create.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="Joining_Tables.htm">Joining Tables</a>
+        </p>
+        <p><a href="Join_Example.htm">Join Example</a>
+        </p>
+        <p class="UpdatedOn" data-mc-conditions="Hosted.Updated">Content updated on: <span class="SystemShortDate">6/23/2014</span></p>
+        <p>
+        </p>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/Borders.css');width: 100%;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: 0;margin-right: auto;" class="TableStyle_Borders" cellspacing="0">
+            <col style="width: 100%;" />
+            <tbody>
+                <tr data-mc-conditions="">
+                    <td style="font-size: 8pt;border-left-style: solid;border-left-width: 0px;border-right-style: solid;border-right-width: 0px;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;" class="TableStyle_Borders_Body_0_0_RowEnd_ColEnd">
+                        <p style="font-family: Verdana;font-size: 8pt;"><a href="../General/feedback.htm">Tell us how we can make the Help better</a>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../index.htm#QueryBuilderAdv/ID_Fields_in_Tables.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

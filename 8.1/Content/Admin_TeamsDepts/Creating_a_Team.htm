@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Output.WebClient,Targeted.WebHelp-slxgetstartedADMIN subset" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="" data-mc-file-tags="Translation Status.Support files">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="classification" content="Saleslogix,Web,Help, 8.1,CRM,software" />
+        <meta name="creator" content="Saleslogix User Assistance" />
+        <meta name="copyright" content="Copyright © 1997-2014, SalesLogix, N.A, LLC. All rights reserved." />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Creating a Team</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Borders.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/SALESLOGIX.CSS" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../index.htm#Admin_TeamsDepts/Creating_a_Team.htm">Open topic with navigation</a>
+        </p>
+        <h1><a name="kanchor160"></a>Creating a Team</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <tr>
+                <td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>The system administrator and users with the appropriate <a href="../Admin_security/What_are_Roles_and_Secured_Actions.htm" target="_self">role</a> can access these features.</p>
+                </td>
+            </tr>
+        </table>
+        <p>A team can consist of users, teams, and departments. When creating a team, you must select one person as the team owner.</p>
+        <p>When determining a user’s ability to create and maintain teams, consider the following rules.                   </p>
+        <p class="Infinitive">A user can never</p>
+        <ul>
+            <li class="Bullets" value="1">Add himself or herself to an existing team.</li>
+            <li class="Bullets" value="2">Remove himself or herself from a team.</li>
+            <li class="Bullets" value="3">Remove the system administrator from a team.</li>
+            <li class="Bullets" value="4">Delete a team.</li>
+        </ul>
+        <p><a href="javascript:void(0);" class="MCToggler MCTogglerHead MCTogglerHotSpot MCToggler_Open toggler MCTogglerHotSpot_" data-mc-targets="team2;team3;team1">Tell me more about team security...<img class="MCToggler_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" /></a>
+        </p>
+        <p style="display: none;" data-mc-target-name="team1">When a user is added to a team, his/her security on that team defaults to the profile set on the <a href="../Admin_useradmin/User_Detail_View_Security_Tab.htm" target="_self">Security tab</a>. The security profile can be changed on each team of which the user is a member. Changing a user’s security profile on one team does not affect the user’s default profile, or the profile in any other team in which the user is a member.</p>
+        <p style="display: none;" data-mc-target-name="team3">If a user has more than one security profile (for example, the user is added to a team as a nested team or department and is also a direct member of the parent team), the security profiles share the same seccode (owner). When determining security access for a field, multiple profiles may be returned. In the Web Client, access is determined by combining the maximum access of all profiles assigned to that user and owner.</p>
+        <p class="Infinitive">To create</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="1">On the  <span class="SLXBold">Administration</span> menu, click <span class="SLXBold">New Team</span>.</li>
+            <li class="Topic-Text-Numbered" value="2">In the <span class="SLXBold">Name</span> box, type a name for the team.</li>
+            <li class="Topic-Text-Numbered" value="3">In the <span class="SLXBold">Owner</span> box, select a  team owner. Teams may have multiple team owners.</li>
+            <li class="Topic-Text-Numbered" value="4">In the <span class="SLXBold">Default Security Profile</span> box, select a default profile for the team. This profile is applied when the team is added to another team.</li>
+            <li class="Topic-Text-Numbered" value="5">Select the <span class="SLXBold">Automatically add user's manager to team</span> check box if you want to add the user's manager to the team when you add a new team member.</li>
+            <li class="Topic-Text-Numbered" value="6">Click <span class="MCExpanding MCExpanding_Open expanding"><a href="javascript:void(0);" class="MCExpandingHead MCExpandingHotSpot expandingHead MCExpandingHotSpot_">Save<img class="MCExpanding_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" /></a><span class="MCExpandingBody expandingBody"><img src="../image/update.gif" /></span></span>.</li>
+            <li class="Topic-Text-Numbered" value="7"><a href="Adding_Team_Members.htm" target="_self">Add team members</a>.</li>
+            <li class="Topic-Text-Numbered" value="8">If necessary, <a href="Editing_a_Security_Profile_Within_a_Team.htm" target="_self">modify the security rights</a> of each team member.</li>
+            <li class="Topic-Text-Numbered" value="9">Click <span class="MCExpanding MCExpanding_Open expanding"><a href="javascript:void(0);" class="MCExpandingHead MCExpandingHotSpot expandingHead MCExpandingHotSpot_">Save<img class="MCExpanding_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" /></a><span class="MCExpandingBody expandingBody"><img src="../image/update.gif" /></span></span>.</li>
+        </ol>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="Working_with_Teams.htm" target="_self">Working with Teams</a>
+        </p>
+        <p data-mc-conditions="Output.WebClient"><a href="Copying_a_Team.htm" target="_self">Copying a Team</a>
+        </p>
+        <p data-mc-conditions="Output.WebClient"><a href="Team_Owner_Profile.htm" target="_self">Team&#160;Owner Profile</a>
+        </p>
+        <p><a href="Team_Hierarchy.htm" target="_self">Team Hierarchy</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>&#160;</p>
+        </div>
+        <p class="UpdatedOn" data-mc-conditions="Hosted.Updated">Content updated on: <span class="SystemShortDate">6/23/2014</span></p>
+        <p>
+        </p>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/Borders.css');width: 100%;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: 0;margin-right: auto;" class="TableStyle_Borders" cellspacing="0">
+            <col style="width: 100%;" />
+            <tbody>
+                <tr data-mc-conditions="">
+                    <td style="font-size: 8pt;border-left-style: solid;border-left-width: 0px;border-right-style: solid;border-right-width: 0px;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;" class="TableStyle_Borders_Body_0_0_RowEnd_ColEnd">
+                        <p style="font-family: Verdana;font-size: 8pt;"><a href="../General/feedback.htm">Tell us how we can make the Help better</a>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../index.htm#Admin_TeamsDepts/Creating_a_Team.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>
