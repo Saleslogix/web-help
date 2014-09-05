@@ -1160,7 +1160,7 @@ MadCap|xref.H2andpage
 {
 	text-decoration: none;
 	font-size: inherit;
-	mc-format: '{color blue}{quote}{h2}{quote} {pageref}{/color}';
+	mc-format: '{color blue}{quote}{h2}{quote}{/color}';
 }
 
 MadCap|xref.H3
@@ -1832,6 +1832,17 @@ html.PopupNoFooter
 	div.TableTooBig
 	{
 		font-size: 8pt;
+	}
+
+	li.pagebreak
+	{
+		page-break-before: always;
+		page-break-inside: auto;
+	}
+
+	span.pagebreak
+	{
+		page-break-after: always;
 	}
 }
 
