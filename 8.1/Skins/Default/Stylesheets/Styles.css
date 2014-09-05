@@ -139,10 +139,10 @@ body
 
 #navigation
 {
-	width: 300px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
+	width: 297px;
 }
 
 html.left-layout #navigation
@@ -177,12 +177,12 @@ html.right-layout #navigation
 
 html.left-layout #navigationResizeBar
 {
-	left: 300px;
+	left: 297px;
 }
 
 html.right-layout #navigationResizeBar
 {
-	right: 300px;
+	right: 297px;
 }
 
 html.left-layout #navigationResizeBar.nav-closed
@@ -981,9 +981,9 @@ html.left-layout #contentBody
 	-webkit-border-radius: 4px 0 0 0;
 	-moz-border-radius: 4px 0 0 0;
 	border-radius: 4px 0 0 0;
-	left: 305px;
-	right: 0;
 	float: right;
+	left: 302px;
+	right: 0;
 }
 
 html.left-layout #contentBody.nav-closed
@@ -996,8 +996,8 @@ html.right-layout #contentBody
 	-webkit-border-radius: 0 4px 0 0;
 	-moz-border-radius: 0 4px 0 0;
 	border-radius: 0 4px 0 0;
+	right: 302px;
 	left: 0;
-	right: 305px;
 }
 
 html.right-layout #contentBody.nav-closed
@@ -1076,7 +1076,7 @@ iframe.content
 	border-top-right-radius: 7px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
-	margin-top: -11px;
+	margin-top: -13px;
 	box-shadow: 0px 0px 0px #7d7d7d;
 	-webkit-box-shadow: 0px 0px 0px #7d7d7d;
 	-moz-box-shadow: 0px 0px 0px #7d7d7d;
@@ -1252,8 +1252,8 @@ iframe.content
 	background-clip: padding-box;
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 0px;
-	height: 20px;
-	line-height: 20px;
+	height: 24px;
+	line-height: 24px;
 	background: #ffffff;
 	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
@@ -1290,8 +1290,8 @@ iframe.content
 	/*PIE*/
 	padding-right: 5px;
 	cursor: pointer;
-	height: 20px;
-	line-height: 20px;
+	height: 24px;
+	line-height: 24px;
 	color: #dadada;
 	border-left: solid 1px #363636;
 	background: #ffffff;
@@ -1413,7 +1413,7 @@ iframe.content
 	width: 16px;
 	padding-left: 6px;
 	padding-right: 10px;
-	height: 20px;
+	height: 24px;
 }
 
 /* placeholder */

@@ -781,10 +781,10 @@
         <loc>http://developer.saleslogix.com/web-help/8.1/Content/Resources/Multimedia/NewMedia.wmv</loc>
     </url>
     <url>
-        <loc>http://developer.saleslogix.com/web-help/8.1/Content/Resources/Stylesheets/Print.css</loc>
+        <loc>http://developer.saleslogix.com/web-help/8.1/Content/Resources/MasterPages/NoFooter.flmsp</loc>
     </url>
     <url>
-        <loc>http://developer.saleslogix.com/web-help/8.1/Content/Resources/MasterPages/NoFooter.flmsp</loc>
+        <loc>http://developer.saleslogix.com/web-help/8.1/Content/Resources/Stylesheets/Print.css</loc>
     </url>
     <url>
         <loc>http://developer.saleslogix.com/web-help/8.1/Content/Resources/Stylesheets/SalesLogixFooterHelpLink.htt</loc>
@@ -809,6 +809,12 @@
     </url>
     <url>
         <loc>http://developer.saleslogix.com/web-help/8.1/Content/Resources/TableStyles/TableStyle.css</loc>
+    </url>
+    <url>
+        <loc>http://developer.saleslogix.com/web-help/8.1/Content/Resources/TableStyles/TableStyle8.1.css</loc>
+    </url>
+    <url>
+        <loc>http://developer.saleslogix.com/web-help/8.1/Content/Resources/TableStyles/TableStyleBlue.css</loc>
     </url>
     <url>
         <loc>http://developer.saleslogix.com/web-help/8.1/Content/Common/slxoverview.htm</loc>
